@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 步骤 */
+        /* 1.去除标签默认的margin和padding */
+        /* 2.找到ul,去除小圆点 */
+        /* 3.找到li标签,设置浮动让li一行显示 */
+        /* 4.找到a标签,设置宽高(a标签是行内元素,默认不能设置宽高) */
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        ul li {
+            float: left;
+        }
+        
+        ul li a {
+            display: inline-block;
+            width: 80px;
+            height: 50px;
+            background-color: #ffc0cb;
+            text-decoration: none;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            font-size: 16px
+        }
+        
+        ul li a:hover {
+            background-color: #008000;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="#">新闻1</a>
+        </li>
+        <li>
+            <a href="#">新闻2</a>
+        </li>
+        <li>
+            <a href="#">新闻3</a>
+        </li>
+        <li>
+            <a href="#">新闻4</a>
+        </li>
+        <li>
+            <a href="#">新闻5</a>
+        </li>
+        <li>
+            <a href="#">新闻6</a>
+        </li>
+        <li>
+            <a href="#">新闻7</a>
+        </li>
+        <li>
+            <a href="#">新闻8</a>
+        </li>
+
+    </ul>
+</body>
+
+</html>
+
+</html>

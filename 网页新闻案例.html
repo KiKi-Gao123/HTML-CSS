@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            /* 消除浏览器默认的margin和padding */
+            margin: 0;
+            padding: 0;
+        }
+        
+        .box {
+            width: 500px;
+            height: 400px;
+            /* background-color: pink; */
+            border: 1px solid #cccccc;
+            /* 自动内减 */
+            box-sizing: border-box;
+            padding: 41px 30px;
+        }
+        
+        .box h2 {
+            height: 41px;
+            /* background-color: pink; */
+            box-sizing: border-box;
+            border-bottom: 1px solid #ccc;
+            font-size: 30px;
+        }
+        
+        body {
+            /* 行高和文字大小保持一致 */
+            line-height: 1;
+        }
+        
+        .box li {
+            box-sizing: border-box;
+            border-bottom: 1px dashed #ccc;
+            list-style: none;
+            height: 51px;
+            line-height: 51px;
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 大盒子 -->
+    <div class="box">
+        <div>
+            <h2>最新文章/New Articles</h2>
+        </div>
+        <div>
+            <ul>
+                <li>北京网页招聘</li>
+                <li>体验JavaScript的魅力</li>
+                <li>jquery世界来临</li>
+                <li>网页设计师的梦想</li>
+                <li>编程是什么</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

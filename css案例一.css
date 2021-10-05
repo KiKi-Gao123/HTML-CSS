@@ -1,0 +1,36 @@
+    .box1 {
+        /* 盒子居中 */
+        margin: 0 auto;
+        width: 800px;
+        height: 800px;
+    }
+    
+    h2 {
+        /* 内部文本水平居中 */
+        text-align: center;
+    }
+    
+    .span1 {
+        color: #808080;
+    }
+    
+    .span2 {
+        color: #87ceeb;
+        font-weight: 700;
+    }
+    
+    .box2 {
+        text-align: center;
+    }
+    
+    .a3 {
+        text-decoration: none;
+    }
+    
+    p {
+        text-indent: 2em;
+    }
+    
+    .hr {
+        color: red;
+    }
