@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            background-color: pink;
+        }
+        
+        .son {
+            position: absolute;
+            /* 1.往右移动父元素的一般;2.往左移动子元素的一半 */
+            left: 50%;
+            /* margin-left: -30px; */
+            /* margin-left: ; */
+            width: 60px;
+            transform: translateX(-50%);
+            height: 20px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <div class="son"></div>
+    </div>
+
+</body>
+
+</html>
