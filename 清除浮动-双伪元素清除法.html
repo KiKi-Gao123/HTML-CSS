@@ -11,20 +11,20 @@
             width: 400px;
             background-color: pink;
         }
-        
+
         .son {
             width: 100px;
             height: 300px;
             background-color: skyblue;
             float: left;
         }
-        
+
         .clearfax::after,
         .clearfax::before {
             content: '';
             display: table;
         }
-        
+
         .clearfax::after {
             clear: both;
         }
@@ -32,10 +32,10 @@
 </head>
 
 <body>
-    <!-- 双伪元素清除法 固定操作-->
-    <div class="father clearfax">
-        <div class="son"></div>
-    </div>
+<!-- 双伪元素清除法 固定操作-->
+<div class="father clearfax">
+    <div class="son"></div>
+</div>
 </body>
 
 </html>

@@ -12,23 +12,23 @@
             color: red;
         } */
         /* 后代选择器: 选择器1  选择器2{css} */
-        
+
         .father p {
             color: red;
         }
     </style>
 
-    <body>
-        <!-- 需求:只让小姐姐变红 而不改变html结构 -->
-        <!-- 解决:在.father这个div的后代中找到p标签 -->
-        <div class="father">
-            <p>小姐姐</p>
-            <h1>大标题</h1>
-            <div>
-                <p>小哥哥</p>
-            </div>
-        </div>
-        <p>小可爱</p>
-    </body>
+<body>
+<!-- 需求:只让小姐姐变红 而不改变html结构 -->
+<!-- 解决:在.father这个div的后代中找到p标签 -->
+<div class="father">
+    <p>小姐姐</p>
+    <h1>大标题</h1>
+    <div>
+        <p>小哥哥</p>
+    </div>
+</div>
+<p>小可爱</p>
+</body>
 
 </html>

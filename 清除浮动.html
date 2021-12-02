@@ -13,17 +13,18 @@
             /* height: 400px; */
             /* 不给父元素设置高度,默认是子元素的高度 */
         }
-        
+
         .son {
             width: 100px;
             height: 400px;
             background-color: skyblue;
             float: left;
         }
+
         /* .clear {
             clear: both
         } */
-        
+
         .clearfax::after {
             /* 清除浮动 */
             content: '.';
@@ -38,16 +39,16 @@
 </head>
 
 <body>
-    <!-- 清除浮动的影响: -->
-    <!-- 1.直接给父元素设置高度 缺点:父元素的高度写死可能会有影响-->
-    <!-- 2.额外标签法 clear:both 两步:加盒子加元素 缺点:给页面加了很多额外的标签-->
-    <!-- 3.单伪元素清除法 clearfax-->
-    <!-- 4.双伪元素清除法 -->
-    <div class="father clearfax">
-        <div class="son"></div>
-        <!-- <div class="clear"></div> -->
-    </div>
-    <div class="clearfax"></div>
+<!-- 清除浮动的影响: -->
+<!-- 1.直接给父元素设置高度 缺点:父元素的高度写死可能会有影响-->
+<!-- 2.额外标签法 clear:both 两步:加盒子加元素 缺点:给页面加了很多额外的标签-->
+<!-- 3.单伪元素清除法 clearfax-->
+<!-- 4.双伪元素清除法 -->
+<div class="father clearfax">
+    <div class="son"></div>
+    <!-- <div class="clear"></div> -->
+</div>
+<div class="clearfax"></div>
 </body>
 
 </html>
